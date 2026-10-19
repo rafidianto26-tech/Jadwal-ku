@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Calendar base board (White rounded rectangle card) -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M30,34C30,30.7 32.7,28 36,28h36c3.3,0 6,2.7 6,6v38c0,3.3 -2.7,6 -6,6H36c-3.3,0 -6,-2.7 -6,-6V34z" />
+
+    <!-- Calendar header red banner for school vibe -->
+    <path
+        android:fillColor="#FFEF4444"
+        android:pathData="M30,34C30,30.7 32.7,28 36,28h36c3.3,0 6,2.7 6,6v8H30V34z" />
+
+    <!-- Calendar grid boxes representing school subjects -->
+    <path
+        android:fillColor="#FFCBD5E1"
+        android:pathData="M38,48h8v6h-8z M50,48h8v6h-8z M62,48h8v6h-8z M38,58h8v6h-8z M50,58h8v6h-8z M62,58h8v6h-8z" />
+
+    <!-- Dynamic Overlay Clock on Bottom Right to represent timing reminder alerts -->
+    <path
+        android:fillColor="#FF10B981"
+        android:pathData="M76,76m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M76,76m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" />
+
+    <!-- Clock hands -->
+    <path
+        android:fillColor="#FF0F172A"
+        android:pathData="M75,67h2v10h-2z" />
+    <path
+        android:fillColor="#FF0F172A"
+        android:pathData="M75,75h7v2h-7z" />
+
+    <!-- Binder rings on top hanging of local scheduler -->
+    <path
+        android:fillColor="#FF475569"
+        android:pathData="M40,20c-1.1,0 -2,0.9 -2,2v10c0,1.1 0.9,2 2,2s2,-0.9 2,-2V22c0,-1.1 -0.9,-2 -2,-2z M68,20c-1.1,0 -2,0.9 -2,2v10c0,1.1 0.9,2 2,2s2,-0.9 2,-2V22c0,-1.1 -0.9,-2 -2,-2z" />
+</vector>
