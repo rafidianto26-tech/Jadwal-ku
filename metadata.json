@@ -1,0 +1,6 @@
+{
+  "name": "JadwalKu",
+  "description": "Aplikasi pengingat jadwal pelajaran sekolah yang cantik dan intuitif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
